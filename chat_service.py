@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 #imports LangChain's ChatGoogleGenerativeAI class, which is used to interact with Google's generative AI models
 from langchain_core.messages import HumanMessage, AIMessage
-imports data classes that represent converstaion roles in LangChain. HumanMessage represents a message from a human user, while AIMessage represents a message from the AI model.
+#imports data classes that represent converstaion roles in LangChain. HumanMessage represents a message from a human user, while AIMessage represents a message from the AI model.
 
 
 load_dotenv(encoding="utf-8-sig")
