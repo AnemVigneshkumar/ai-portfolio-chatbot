@@ -34,7 +34,7 @@ export default function App() {
 
     try {
       // 2. Call your FastAPI backend streaming endpoint
-      const response = await fetch('https://ai-portfolio-chatbot-backend-jis5.onrender.com', {
+      const response = await fetch('https://ai-portfolio-chatbot-backend-jis5.onrender.com/chat/stream', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
