@@ -5,7 +5,7 @@ export default function App() {
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
-      content: 'Hello! I am your AI assistant powered by Gemini 3.8 Flash. How can I help you today?'
+      content: 'Hello! I am your AI assistant powered by Gemini 3.5 Flash lite. How can I help you today?'
     }
   ]);
   const [input, setInput] = useState('');
